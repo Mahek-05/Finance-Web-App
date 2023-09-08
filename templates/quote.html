@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Get Quote
+{% endblock %}
+
+{% block main %}
+    <form action="/quote" method="post">
+        <div class="mb-3">
+            <input type="text" class="form-control mx-auto w-auto" id="symbol" name="symbol" placeholder="Enter stock name" autocomplete="off" autofocus>
+            <div>{{ symb_ol }}</div>
+        </div>
+        <button type="submit" class="btn btn-outline-info" methos="post">Quote</button>
+    </form>
+{% endblock %}
