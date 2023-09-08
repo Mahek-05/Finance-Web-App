@@ -3,13 +3,13 @@ This is a solution for CS50's Finance problem set, where you are tasked with cre
 This solution is implemented in Python using the Flask web framework and utilizes SQLite for database management.
 
 ## How To Run
-1.Clone this repository, navigate to the project and type the following commands:
-2.Activate a virtual environment: 'python3 -m venv .venv' then select the virtual environment as the active workspace
-3.Install dependencies: 'pip install -r requirements.txt'
-4.Run command 'export FLASK_APP=app.py' to set the Flask environment variable
-5.[Configure and export your API key with these instructions](https://cs50.harvard.edu/x/2022/psets/9/finance/)
-6.Run command 'flask run' to open on localhost
-7.When the finance site opens in your browser, register for a new account (upper right corner) to create your own stock portfolio
+Clone this repository, navigate to the project and type the following commands:
+"1." Activate a virtual environment: 'python3 -m venv .venv' then select the virtual environment as the active workspace
+"2." Install dependencies: 'pip install -r requirements.txt'
+"3." Run command 'export FLASK_APP=app.py' to set the Flask environment variable
+4. [Configure and export your API key with these instructions](https://cs50.harvard.edu/x/2022/psets/9/finance/)
+5. Run command 'flask run' to open on localhost
+6. When the finance site opens in your browser, register for a new account (upper right corner) to create your own stock portfolio
 
 ## Views
 ### Register
